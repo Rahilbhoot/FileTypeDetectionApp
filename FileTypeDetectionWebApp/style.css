@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: "Barlow", sans-serif;
 }
 
 body {
@@ -13,6 +13,14 @@ body {
     height: 100vh;
     /* background: linear-gradient(135deg, #1e3c72, #ffffff); */
     background-color: white;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-logo {
@@ -71,10 +79,65 @@ header {
     display: none;
 }
 
-footer {
+.custom-footer {
+    background-color: #547495;
+    color: #ffffff;
+    padding: 20px 0;
     width: 100%;
-    padding: 10px;
-    background: #547495;
-    color: white;
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+}
+
+.collaborators {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.info-section {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.info-section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.info-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.info-section ul li {
+    margin-bottom: 8px;
+}
+
+/* Margin and padding assets */
+.mb-20 {
+    margin-bottom: 20px;
 }
