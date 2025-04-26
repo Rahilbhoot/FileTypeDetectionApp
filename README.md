@@ -21,7 +21,6 @@ It improves security by ensuring that files aren't misidentified or used malicio
 - **HTML5**
 - **CSS3** (with custom styling)
 - **JavaScript**
-- **Google Fonts** (Orbitron for techy appearance)
 
 ---
 
